@@ -1,0 +1,161 @@
+######################################################################################
+
+Using bisection method to find the root of f(x) = x + cos(x) + exp(x)
+
+======================================================================================
+
+Bisection Search
+
+Iteration 0, interval: [-3,3]
+
+Iteration 1, interval: [-3,0.0]
+
+Iteration 2, interval: [-1.5,0.0]
+
+Iteration 3, interval: [-1.5,-0.75]
+
+Iteration 4, interval: [-1.125,-0.75]
+
+Iteration 5, interval: [-1.125,-0.9375]
+
+Iteration 6, interval: [-1.03125,-0.9375]
+
+Iteration 7, interval: [-0.984375,-0.9375]
+
+Iteration 8, interval: [-0.9609375,-0.9375]
+
+Iteration 9, interval: [-0.9609375,-0.94921875]
+
+Iteration 10, interval: [-0.9609375,-0.955078125]
+
+The root is found after 10 iterations! 
+Estimated root: -0.9580078125, Function value at the estimated root: 0.0007994583155395696
+
+######################################################################################
+
+Using bisection method to find the root of f(x) = x^3 * exp(3x) + x
+
+======================================================================================
+
+Bisection Search
+
+Iteration 0, interval: [-1,1]
+
+The root is found after 0 iterations! 
+Estimated root: 0.0, Function value at the estimated root: 0.0
+
+######################################################################################
+
+Using bisection method to find the root of f(x) = x^2 - 3 x + 2
+
+======================================================================================
+
+Bisection Search
+
+Iteration 0, interval: [0,1.5]
+
+Iteration 1, interval: [0.75,1.5]
+
+Iteration 2, interval: [0.75,1.125]
+
+Iteration 3, interval: [0.9375,1.125]
+
+Iteration 4, interval: [0.9375,1.03125]
+
+Iteration 5, interval: [0.984375,1.03125]
+
+Iteration 6, interval: [0.984375,1.0078125]
+
+Iteration 7, interval: [0.99609375,1.0078125]
+
+Iteration 8, interval: [0.99609375,1.001953125]
+
+The root is found after 8 iterations! 
+Estimated root: 0.9990234375, Function value at the estimated root: 0.0009775161743164062
+
+######################################################################################
+
+Using Newton's method to find the root of f(x) = x + cos(x) + exp(x)
+
+======================================================================================
+
+Newton's Method
+
+Iteration 0, x = 3, f(x) = 22.095544426587225, f'(x) = 20.9444169151278
+
+Iteration 1, x = 1.9450389325172388, f(x) = 8.573375409593424, f'(x) = 7.063119372313696
+
+Iteration 2, x = 0.7312161217065236, f(x) = 3.5531846719126663, f'(x) = 2.409830328926311
+
+Iteration 3, x = -0.7432381704741926, f(x) = 0.46861449924775167, f'(x) = 2.152247097405856
+
+Iteration 4, x = -0.9609708368639308, f(x) = -0.005725082486886968, f'(x) = 2.2022693163352978
+
+Iteration 5, x = -0.9583712081789098, f(x) = -6.439811949254803e-07, f'(x) = 2.2017733843616565
+
+The root is found after 5 iterations! 
+Estimated root: -0.9583712081789098, Function value at the estimated root: -6.439811949254803e-07
+
+######################################################################################
+
+Using Newton's method to find the root of f(x) = x^2
+
+======================================================================================
+
+Newton's Method
+
+Iteration 0, x = -1, f(x) = 1, f'(x) = -2
+
+Iteration 1, x = -0.5, f(x) = 0.25, f'(x) = -1.0
+
+Iteration 2, x = -0.25, f(x) = 0.0625, f'(x) = -0.5
+
+Iteration 3, x = -0.125, f(x) = 0.015625, f'(x) = -0.25
+
+Iteration 4, x = -0.0625, f(x) = 0.00390625, f'(x) = -0.125
+
+Iteration 5, x = -0.03125, f(x) = 0.0009765625, f'(x) = -0.0625
+
+The root is found after 5 iterations! 
+Estimated root: -0.03125, Function value at the estimated root: 0.0009765625
+
+######################################################################################
+
+Using Newton's method to find the root of f(x) = x^3 * exp(3x) + x
+
+======================================================================================
+
+Newton's Method
+
+Iteration 0, x = 0.5, f(x) = 1.060211133792258, f'(x) = 6.041900204130323
+
+Iteration 1, x = 0.3245235608050124, f(x) = 0.41500407768515934, f'(x) = 2.1078725018080653
+
+Iteration 2, x = 0.12764064813871867, f(x) = 0.13069042376951193, f'(x) = 1.0808296812763247
+
+Iteration 3, x = 0.006723887585674937, f(x) = 0.006724197771376015, f'(x) = 1.0001393262532503
+
+Iteration 4, x = 6.265410698912469e-07, f(x) = 6.265410698914928e-07, f'(x) = 1.0000000000011777
+
+The root is found after 4 iterations! 
+Estimated root: 6.265410698912469e-07, Function value at the estimated root: 6.265410698914928e-07
+
+######################################################################################
+
+Using Newton's method to find the root of f(x) = x^2 - 3 x + 2
+
+======================================================================================
+
+Newton's Method
+
+Iteration 0, x = 0.5, f(x) = 0.75, f'(x) = -2.0
+
+Iteration 1, x = 0.875, f(x) = 0.140625, f'(x) = -1.25
+
+Iteration 2, x = 0.9875, f(x) = 0.012656249999999591, f'(x) = -1.025
+
+Iteration 3, x = 0.9998475609756095, f(x) = 0.00015246226204679303, f'(x) = -1.000304878048781
+
+The root is found after 3 iterations! 
+Estimated root: 0.9998475609756095, Function value at the estimated root: 0.00015246226204679303
+
